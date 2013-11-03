@@ -7,6 +7,7 @@
         public DetailsModule()
             : base("/account/details")
         {
+            Get["/"] = _ => "details";
         }
     }
 }
